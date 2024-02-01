@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.etsntesla.gava.Test3" time="13.637" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vucur\Projekti\Preference\target\test-classes;C:\Users\vucur\Projekti\Preference\target\classes;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-websocket\2.5.5\spring-boot-starter-websocket-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.5\spring-boot-starter-web-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.5\spring-boot-starter-json-2.5.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.5\jackson-databind-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.5\jackson-annotations-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.5\jackson-core-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.5\jackson-datatype-jdk8-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.5\jackson-datatype-jsr310-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.5\jackson-module-parameter-names-2.12.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.5\spring-boot-starter-tomcat-2.5.5.jar;C:\Users\vucur\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.53\tomcat-embed-core-9.0.53.jar;C:\Users\vucur\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.53\tomcat-embed-el-9.0.53.jar;C:\Users\vucur\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.53\tomcat-embed-websocket-9.0.53.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-web\5.3.10\spring-web-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-webmvc\5.3.10\spring-webmvc-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-messaging\5.3.10\spring-messaging-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-websocket\5.3.10\spring-websocket-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\session\spring-session-data-redis\2.5.5\spring-session-data-redis-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\data\spring-data-redis\2.5.9\spring-data-redis-2.5.9.jar;C:\Users\vucur\.m2\repository\org\springframework\data\spring-data-keyvalue\2.5.9\spring-data-keyvalue-2.5.9.jar;C:\Users\vucur\.m2\repository\org\springframework\data\spring-data-commons\2.5.9\spring-data-commons-2.5.9.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-tx\5.3.16\spring-tx-5.3.16.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-oxm\5.3.16\spring-oxm-5.3.16.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-context-support\5.3.16\spring-context-support-5.3.16.jar;C:\Users\vucur\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\vucur\.m2\repository\org\springframework\session\spring-session-core\2.5.5\spring-session-core-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-beans\5.3.10\spring-beans-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-core\5.3.10\spring-core-5.3.10.jar;C:\Users\vucur\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\vucur\.m2\repository\io\lettuce\lettuce-core\6.2.2.RELEASE\lettuce-core-6.2.2.RELEASE.jar;C:\Users\vucur\.m2\repository\io\netty\netty-common\4.1.85.Final\netty-common-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-handler\4.1.85.Final\netty-handler-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-resolver\4.1.85.Final\netty-resolver-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-buffer\4.1.85.Final\netty-buffer-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.85.Final\netty-transport-native-unix-common-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-codec\4.1.85.Final\netty-codec-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-transport\4.1.85.Final\netty-transport-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\projectreactor\reactor-core\3.4.25\reactor-core-3.4.25.jar;C:\Users\vucur\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\vucur\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.5.5\spring-boot-starter-test-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.5\spring-boot-starter-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot\2.5.5\spring-boot-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.5\spring-boot-autoconfigure-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.5\spring-boot-starter-logging-2.5.5.jar;C:\Users\vucur\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\vucur\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\vucur\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\vucur\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\vucur\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\vucur\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\vucur\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-test\2.5.5\spring-boot-test-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.5.5\spring-boot-test-autoconfigure-2.5.5.jar;C:\Users\vucur\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\vucur\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\vucur\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\vucur\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\vucur\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\vucur\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\vucur\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\vucur\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\vucur\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\vucur\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vucur\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\vucur\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\vucur\.m2\repository\net\bytebuddy\byte-buddy\1.10.20\byte-buddy-1.10.20.jar;C:\Users\vucur\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.20\byte-buddy-agent-1.10.20.jar;C:\Users\vucur\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\vucur\.m2\repository\org\mockito\mockito-junit-jupiter\3.9.0\mockito-junit-jupiter-3.9.0.jar;C:\Users\vucur\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\vucur\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-test\5.3.10\spring-test-5.3.10.jar;C:\Users\vucur\.m2\repository\org\xmlunit\xmlunit-core\2.8.2\xmlunit-core-2.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\vucur\.jdks\openjdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\vucur\AppData\Local\Temp\surefire1463453941566302799\surefirebooter-20240123165136816_3.jar C:\Users\vucur\AppData\Local\Temp\surefire1463453941566302799 2024-01-23T16-51-36_477-jvmRun1 surefire-20240123165136816_1tmp surefire_0-20240123165136816_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vucur\Projekti\Preference\target\test-classes;C:\Users\vucur\Projekti\Preference\target\classes;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-websocket\2.5.5\spring-boot-starter-websocket-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.5.5\spring-boot-starter-web-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.5.5\spring-boot-starter-json-2.5.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.5\jackson-databind-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.5\jackson-annotations-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.5\jackson-core-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.12.5\jackson-datatype-jdk8-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.5\jackson-datatype-jsr310-2.12.5.jar;C:\Users\vucur\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.12.5\jackson-module-parameter-names-2.12.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.5.5\spring-boot-starter-tomcat-2.5.5.jar;C:\Users\vucur\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.53\tomcat-embed-core-9.0.53.jar;C:\Users\vucur\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.53\tomcat-embed-el-9.0.53.jar;C:\Users\vucur\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.53\tomcat-embed-websocket-9.0.53.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-web\5.3.10\spring-web-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-webmvc\5.3.10\spring-webmvc-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-expression\5.3.10\spring-expression-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-messaging\5.3.10\spring-messaging-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-websocket\5.3.10\spring-websocket-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-context\5.3.10\spring-context-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\session\spring-session-data-redis\2.5.5\spring-session-data-redis-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\data\spring-data-redis\2.5.9\spring-data-redis-2.5.9.jar;C:\Users\vucur\.m2\repository\org\springframework\data\spring-data-keyvalue\2.5.9\spring-data-keyvalue-2.5.9.jar;C:\Users\vucur\.m2\repository\org\springframework\data\spring-data-commons\2.5.9\spring-data-commons-2.5.9.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-tx\5.3.16\spring-tx-5.3.16.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-oxm\5.3.16\spring-oxm-5.3.16.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-context-support\5.3.16\spring-context-support-5.3.16.jar;C:\Users\vucur\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\vucur\.m2\repository\org\springframework\session\spring-session-core\2.5.5\spring-session-core-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-aop\5.3.10\spring-aop-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-beans\5.3.10\spring-beans-5.3.10.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-core\5.3.10\spring-core-5.3.10.jar;C:\Users\vucur\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\vucur\.m2\repository\io\lettuce\lettuce-core\6.2.2.RELEASE\lettuce-core-6.2.2.RELEASE.jar;C:\Users\vucur\.m2\repository\io\netty\netty-common\4.1.85.Final\netty-common-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-handler\4.1.85.Final\netty-handler-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-resolver\4.1.85.Final\netty-resolver-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-buffer\4.1.85.Final\netty-buffer-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.85.Final\netty-transport-native-unix-common-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-codec\4.1.85.Final\netty-codec-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\netty\netty-transport\4.1.85.Final\netty-transport-4.1.85.Final.jar;C:\Users\vucur\.m2\repository\io\projectreactor\reactor-core\3.4.25\reactor-core-3.4.25.jar;C:\Users\vucur\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\vucur\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.5.5\spring-boot-starter-test-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter\2.5.5\spring-boot-starter-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot\2.5.5\spring-boot-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.5.5\spring-boot-autoconfigure-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.5.5\spring-boot-starter-logging-2.5.5.jar;C:\Users\vucur\.m2\repository\ch\qos\logback\logback-classic\1.2.6\logback-classic-1.2.6.jar;C:\Users\vucur\.m2\repository\ch\qos\logback\logback-core\1.2.6\logback-core-1.2.6.jar;C:\Users\vucur\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.14.1\log4j-to-slf4j-2.14.1.jar;C:\Users\vucur\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\vucur\.m2\repository\org\slf4j\jul-to-slf4j\1.7.32\jul-to-slf4j-1.7.32.jar;C:\Users\vucur\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\vucur\.m2\repository\org\yaml\snakeyaml\1.28\snakeyaml-1.28.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-test\2.5.5\spring-boot-test-2.5.5.jar;C:\Users\vucur\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.5.5\spring-boot-test-autoconfigure-2.5.5.jar;C:\Users\vucur\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\vucur\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\vucur\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\vucur\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\vucur\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\vucur\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\vucur\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\vucur\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\vucur\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\vucur\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\vucur\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\vucur\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\vucur\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\vucur\.m2\repository\net\bytebuddy\byte-buddy\1.10.20\byte-buddy-1.10.20.jar;C:\Users\vucur\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.20\byte-buddy-agent-1.10.20.jar;C:\Users\vucur\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\vucur\.m2\repository\org\mockito\mockito-junit-jupiter\3.9.0\mockito-junit-jupiter-3.9.0.jar;C:\Users\vucur\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\vucur\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\vucur\.m2\repository\org\springframework\spring-test\5.3.10\spring-test-5.3.10.jar;C:\Users\vucur\.m2\repository\org\xmlunit\xmlunit-core\2.8.2\xmlunit-core-2.8.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vucur"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.home" value="C:\Users\vucur\.jdks\openjdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\vucur\Projekti\Preference"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\vucur\AppData\Local\Temp\surefire1463453941566302799\surefirebooter-20240123165136816_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19+36-2238"/>
+    <property name="user.name" value="vucur"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="spring.beaninfo.ignore" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vucur\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vucur\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.version" value="19"/>
+    <property name="user.dir" value="C:\Users\vucur\Projekti\Preference"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="9388"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\vucur\.jdks\openjdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\dotnet\;C:\xampp\mysql\bin;C:\Program Files\Git\cmd;C:\Users\vucur\AppData\Local\Microsoft\WindowsApps;C:\Users\vucur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vucur\AppData\Local\GitHubDesktop\bin;C:\Users\vucur\AppData\Roaming\Composer\vendor\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin;;C:\xampp\mysql\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19+36-2238"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="save" classname="org.etsntesla.gava.Test3" time="1.275">
+    <system-out><![CDATA[16:51:38.618 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:51:38.643 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:51:38.846 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.etsntesla.gava.Test3] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:51:38.883 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.etsntesla.gava.Test3], using SpringBootContextLoader
+16:51:38.891 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.etsntesla.gava.Test3]: class path resource [org/etsntesla/gava/Test3-context.xml] does not exist
+16:51:38.893 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [org.etsntesla.gava.Test3]: class path resource [org/etsntesla/gava/Test3Context.groovy] does not exist
+16:51:38.893 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [org.etsntesla.gava.Test3]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:51:39.029 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.etsntesla.gava.Test3]
+16:51:39.318 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [org.etsntesla.gava.Test3]: using defaults.
+16:51:39.319 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:51:39.365 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@512baff6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@632ceb35, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1c93f6e1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1800a575, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1458ed9c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10a9d961, org.springframework.test.context.transaction.TransactionalTestExecutionListener@130e116b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@e383572, org.springframework.test.context.event.EventPublishingTestExecutionListener@5ddf0d24, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@363a52f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60856961, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2fd953a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@a4add54, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@141e5bef, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5f9be66c]
+16:51:39.372 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@332796d3 testClass = Test3, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@4f0100a7 testClass = Test3, locations = '{}', classes = '{class org.etsntesla.gava.Main}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@173ed316, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@17f62e33, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5149d738, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@742ff096, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@413d1baf, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@4148db48], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+16:51:39.504 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class [B as writing converter.
+16:51:39.504 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.String as reading converter.
+16:51:39.505 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Number to class [B as writing converter.
+16:51:39.505 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Number as reading converter.
+16:51:39.505 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Enum to class [B as writing converter.
+16:51:39.506 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Enum as reading converter.
+16:51:39.506 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Boolean to class [B as writing converter.
+16:51:39.506 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Boolean as reading converter.
+16:51:39.506 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class [B as writing converter.
+16:51:39.506 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.Date as reading converter.
+16:51:39.507 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.UUID to class [B as writing converter.
+16:51:39.507 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.UUID as reading converter.
+16:51:39.507 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+16:51:39.507 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+16:51:39.507 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class [B as writing converter.
+16:51:39.507 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDate as reading converter.
+16:51:39.507 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class [B as writing converter.
+16:51:39.508 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalTime as reading converter.
+16:51:39.508 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+16:51:39.508 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+16:51:39.508 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class [B as writing converter.
+16:51:39.508 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Instant as reading converter.
+16:51:39.508 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class [B as writing converter.
+16:51:39.509 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZoneId as reading converter.
+16:51:39.509 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class [B as writing converter.
+16:51:39.509 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Period as reading converter.
+16:51:39.509 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class [B as writing converter.
+16:51:39.509 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Duration as reading converter.
+16:51:39.510 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+16:51:39.510 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+16:51:39.510 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+16:51:39.510 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+16:51:39.511 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+16:51:39.511 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+16:51:39.511 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+16:51:39.511 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+16:51:39.512 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+16:51:39.512 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+16:51:39.512 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+16:51:39.513 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+16:51:39.513 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+16:51:39.513 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+16:51:39.513 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class java.lang.String as writing converter.
+16:51:39.513 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Period as reading converter.
+16:51:39.514 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+16:51:39.514 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+16:51:39.514 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+16:51:39.538 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class [B as writing converter.
+16:51:39.538 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.String as reading converter.
+16:51:39.538 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Number to class [B as writing converter.
+16:51:39.538 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Number as reading converter.
+16:51:39.539 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Enum to class [B as writing converter.
+16:51:39.539 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Enum as reading converter.
+16:51:39.539 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Boolean to class [B as writing converter.
+16:51:39.539 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Boolean as reading converter.
+16:51:39.539 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class [B as writing converter.
+16:51:39.540 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.Date as reading converter.
+16:51:39.540 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.UUID to class [B as writing converter.
+16:51:39.540 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.UUID as reading converter.
+16:51:39.540 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+16:51:39.540 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+16:51:39.541 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class [B as writing converter.
+16:51:39.541 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDate as reading converter.
+16:51:39.541 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class [B as writing converter.
+16:51:39.541 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalTime as reading converter.
+16:51:39.542 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+16:51:39.542 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+16:51:39.542 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class [B as writing converter.
+16:51:39.542 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Instant as reading converter.
+16:51:39.543 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class [B as writing converter.
+16:51:39.543 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZoneId as reading converter.
+16:51:39.543 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class [B as writing converter.
+16:51:39.543 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Period as reading converter.
+16:51:39.543 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class [B as writing converter.
+16:51:39.544 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Duration as reading converter.
+16:51:39.544 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+16:51:39.544 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+16:51:39.544 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+16:51:39.545 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+16:51:39.545 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+16:51:39.545 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+16:51:39.545 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+16:51:39.546 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+16:51:39.546 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+16:51:39.546 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+16:51:39.546 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+16:51:39.546 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+16:51:39.547 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+16:51:39.547 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+16:51:39.547 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class java.lang.String as writing converter.
+16:51:39.547 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Period as reading converter.
+16:51:39.547 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+16:51:39.548 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+16:51:39.548 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+16:51:39.616 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class [B as writing converter.
+16:51:39.617 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.String as reading converter.
+16:51:39.617 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Number to class [B as writing converter.
+16:51:39.619 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Number as reading converter.
+16:51:39.620 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Enum to class [B as writing converter.
+16:51:39.620 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Enum as reading converter.
+16:51:39.620 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Boolean to class [B as writing converter.
+16:51:39.620 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Boolean as reading converter.
+16:51:39.620 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class [B as writing converter.
+16:51:39.620 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.Date as reading converter.
+16:51:39.621 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.UUID to class [B as writing converter.
+16:51:39.621 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.UUID as reading converter.
+16:51:39.621 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+16:51:39.621 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+16:51:39.621 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class [B as writing converter.
+16:51:39.622 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDate as reading converter.
+16:51:39.622 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class [B as writing converter.
+16:51:39.622 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalTime as reading converter.
+16:51:39.622 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+16:51:39.622 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+16:51:39.624 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class [B as writing converter.
+16:51:39.627 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Instant as reading converter.
+16:51:39.633 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class [B as writing converter.
+16:51:39.633 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZoneId as reading converter.
+16:51:39.634 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class [B as writing converter.
+16:51:39.637 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Period as reading converter.
+16:51:39.638 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class [B as writing converter.
+16:51:39.638 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Duration as reading converter.
+16:51:39.638 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+16:51:39.638 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+16:51:39.639 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+16:51:39.639 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+16:51:39.640 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+16:51:39.650 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+16:51:39.652 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+16:51:39.653 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+16:51:39.654 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+16:51:39.654 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+16:51:39.656 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+16:51:39.662 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+16:51:39.662 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+16:51:39.663 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+16:51:39.663 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class java.lang.String as writing converter.
+16:51:39.663 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Period as reading converter.
+16:51:39.663 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+16:51:39.664 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+16:51:39.664 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+16:51:39.674 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class [B as writing converter.
+16:51:39.674 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.String as reading converter.
+16:51:39.674 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Number to class [B as writing converter.
+16:51:39.674 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Number as reading converter.
+16:51:39.675 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Enum to class [B as writing converter.
+16:51:39.675 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Enum as reading converter.
+16:51:39.675 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Boolean to class [B as writing converter.
+16:51:39.675 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Boolean as reading converter.
+16:51:39.676 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class [B as writing converter.
+16:51:39.676 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.Date as reading converter.
+16:51:39.676 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.UUID to class [B as writing converter.
+16:51:39.676 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.UUID as reading converter.
+16:51:39.676 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+16:51:39.677 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+16:51:39.677 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class [B as writing converter.
+16:51:39.677 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDate as reading converter.
+16:51:39.678 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class [B as writing converter.
+16:51:39.678 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalTime as reading converter.
+16:51:39.678 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+16:51:39.678 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+16:51:39.679 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class [B as writing converter.
+16:51:39.679 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Instant as reading converter.
+16:51:39.679 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class [B as writing converter.
+16:51:39.679 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZoneId as reading converter.
+16:51:39.680 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class [B as writing converter.
+16:51:39.680 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Period as reading converter.
+16:51:39.680 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class [B as writing converter.
+16:51:39.680 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Duration as reading converter.
+16:51:39.680 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+16:51:39.681 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+16:51:39.681 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+16:51:39.681 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+16:51:39.681 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+16:51:39.682 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+16:51:39.682 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+16:51:39.682 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+16:51:39.682 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+16:51:39.683 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+16:51:39.683 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+16:51:39.683 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+16:51:39.683 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+16:51:39.683 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+16:51:39.684 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class java.lang.String as writing converter.
+16:51:39.684 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Period as reading converter.
+16:51:39.684 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+16:51:39.684 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+16:51:39.684 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+16:51:39.704 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class [B as writing converter.
+16:51:39.705 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.String as reading converter.
+16:51:39.707 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Number to class [B as writing converter.
+16:51:39.707 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Number as reading converter.
+16:51:39.708 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Enum to class [B as writing converter.
+16:51:39.709 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Enum as reading converter.
+16:51:39.709 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.Boolean to class [B as writing converter.
+16:51:39.711 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.lang.Boolean as reading converter.
+16:51:39.712 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class [B as writing converter.
+16:51:39.716 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.Date as reading converter.
+16:51:39.722 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.UUID to class [B as writing converter.
+16:51:39.722 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.util.UUID as reading converter.
+16:51:39.722 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class [B as writing converter.
+16:51:39.722 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDateTime as reading converter.
+16:51:39.723 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class [B as writing converter.
+16:51:39.723 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalDate as reading converter.
+16:51:39.723 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class [B as writing converter.
+16:51:39.724 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.LocalTime as reading converter.
+16:51:39.724 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZonedDateTime to class [B as writing converter.
+16:51:39.724 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZonedDateTime as reading converter.
+16:51:39.724 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class [B as writing converter.
+16:51:39.725 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Instant as reading converter.
+16:51:39.726 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class [B as writing converter.
+16:51:39.727 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.ZoneId as reading converter.
+16:51:39.729 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class [B as writing converter.
+16:51:39.730 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Period as reading converter.
+16:51:39.731 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class [B as writing converter.
+16:51:39.733 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class [B to class java.time.Duration as reading converter.
+16:51:39.733 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDateTime as reading converter.
+16:51:39.733 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.util.Date as writing converter.
+16:51:39.734 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalDate as reading converter.
+16:51:39.734 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDate to class java.util.Date as writing converter.
+16:51:39.735 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.LocalTime as reading converter.
+16:51:39.735 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalTime to class java.util.Date as writing converter.
+16:51:39.736 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.util.Date to class java.time.Instant as reading converter.
+16:51:39.736 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.util.Date as writing converter.
+16:51:39.737 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.LocalDateTime to class java.time.Instant as reading converter.
+16:51:39.737 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Instant to class java.time.LocalDateTime as reading converter.
+16:51:39.737 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.ZoneId to class java.lang.String as writing converter.
+16:51:39.737 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.ZoneId as reading converter.
+16:51:39.738 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Duration to class java.lang.String as writing converter.
+16:51:39.738 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Duration as reading converter.
+16:51:39.738 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.time.Period to class java.lang.String as writing converter.
+16:51:39.739 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Period as reading converter.
+16:51:39.739 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDate as reading converter.
+16:51:39.740 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.LocalDateTime as reading converter.
+16:51:39.740 [main] DEBUG org.springframework.data.convert.CustomConversions - Adding converter from class java.lang.String to class java.time.Instant as reading converter.
+16:51:40.236 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+16:51:40.266 [main] DEBUG io.lettuce.core.resource.AddressResolverGroupProvider - Starting without optional netty's non-blocking DNS resolver library
+16:51:40.269 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - -Dio.netty.eventLoopThreads: 4
+16:51:40.281 [main] DEBUG io.lettuce.core.resource.DefaultEventLoopGroupProvider - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+16:51:40.321 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+16:51:40.322 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+16:51:40.331 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+16:51:40.331 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+16:51:40.335 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5851bd4f
+16:51:40.362 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+16:51:40.362 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 19
+16:51:40.366 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+16:51:40.367 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+16:51:40.368 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+16:51:40.369 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+16:51:40.370 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+16:51:40.371 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+16:51:40.373 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2e3fc542
+16:51:40.375 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+16:51:40.375 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+16:51:40.377 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2126512128 bytes (maybe)
+16:51:40.377 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\vucur\AppData\Local\Temp (java.io.tmpdir)
+16:51:40.378 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+16:51:40.378 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+16:51:40.379 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+16:51:40.380 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+16:51:40.383 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+16:51:40.383 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+16:51:40.397 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+16:51:40.412 [main] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+16:51:40.496 [main] DEBUG io.lettuce.core.event.jfr.EventRecorderHolder - Starting with JFR support
+16:51:40.628 [main] DEBUG io.lettuce.core.resource.DefaultClientResources - LatencyUtils/HdrUtils are not available, metrics are disabled
+16:51:40.774 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.5)
+
+2024-01-23 16:51:41.505  INFO 9388 --- [           main] org.etsntesla.gava.Test3                 : Starting Test3 using Java 19 on LAPTOP-Pajo with PID 9388 (started by vucur in C:\Users\vucur\Projekti\Preference)
+2024-01-23 16:51:41.510  INFO 9388 --- [           main] org.etsntesla.gava.Test3                 : No active profile set, falling back to default profiles: default
+2024-01-23 16:51:43.378  INFO 9388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-01-23 16:51:43.381  INFO 9388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-23 16:51:43.474  INFO 9388 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface org.etsntesla.gava.repositories.GameContextRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2024-01-23 16:51:43.475  INFO 9388 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 0 Redis repository interfaces.
+2024-01-23 16:51:50.243  INFO 9388 --- [           main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2024-01-23 16:51:50.267  INFO 9388 --- [           main] org.etsntesla.gava.Test3                 : Started Test3 in 9.483 seconds (JVM running for 13.077)
+GameContextRepository{GAME_ID=0, GAME_NAME='GAME-0', players=[]}
+]]></system-out>
+  </testcase>
+  <testcase name="saveAll1" classname="org.etsntesla.gava.Test3" time="0.104"/>
+  <testcase name="saveAll2" classname="org.etsntesla.gava.Test3" time="0.068"/>
+  <testcase name="findById" classname="org.etsntesla.gava.Test3" time="0.019"/>
+  <testcase name="existById" classname="org.etsntesla.gava.Test3" time="0.017"/>
+  <testcase name="findAll" classname="org.etsntesla.gava.Test3" time="0.033"/>
+  <testcase name="findAllWithParameters" classname="org.etsntesla.gava.Test3" time="0.011"/>
+  <testcase name="findAllById" classname="org.etsntesla.gava.Test3" time="0.018"/>
+  <testcase name="count" classname="org.etsntesla.gava.Test3" time="0.01"/>
+  <testcase name="deleteById" classname="org.etsntesla.gava.Test3" time="0.034"/>
+  <testcase name="delete" classname="org.etsntesla.gava.Test3" time="0.029"/>
+  <testcase name="deleteAll" classname="org.etsntesla.gava.Test3" time="0.033"/>
+</testsuite>

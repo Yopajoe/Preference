@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.etsntesla.gava.GameServiceTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.49 s -- in org.etsntesla.gava.GameServiceTest
